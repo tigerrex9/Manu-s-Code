@@ -1,0 +1,60 @@
+#bandersnatch
+x = 0
+y = 0
+while x == 0 :
+    print("What do you want for breakfast?")
+    print("1: lucky charms")
+    print("2: captain crunch")
+    yum = input("")
+
+    if yum == "1" or yum == "lucky charms" :
+        print("you eat the lucky charms.")
+
+    if yum == "2" or yum == "captain crunch" :
+        print("you eat the captain crunch.")
+
+    if yum == "3" or yum == 'Z̷̷̨̟̞͎͍͌̓̂ͣ̃̑̇ͫ̄ͥͭ̋͜͢À̞̱͉̼̺͉̗̰̺̹̯̖͖͕̜͍̗ͩ̅͌ͯ͛͒̏͌̾͜͡ͅL̴̢͕̟͓͖̟̖͍̺̖̥̣̺̮ͮ̄͒̀̕͡Gͦͬ̐͒̎̈́̊͟͡҉̵̘̳̰̘͎Õ̸̸̢̨̜͉͔̞̩̟̤̿̆͋ͧ́ͭ̽̽ͨ̈́͠"' :
+        print('you eat the Z̷̷̨̟̞͎͍͌̓̂ͣ̃̑̇ͫ̄ͥͭ̋͜͢À̞̱͉̼̺͉̗̰̺̹̯̖͖͕̜͍̗ͩ̅͌ͯ͛͒̏͌̾͜͡ͅL̴̢͕̟͓͖̟̖͍̺̖̥̣̺̮ͮ̄͒̀̕͡Gͦͬ̐͒̎̈́̊͟͡҉̵̘̳̰̘͎Õ̸̸̢̨̜͉͔̞̩̟̤̿̆͋ͧ́ͭ̽̽ͨ̈́͠".')
+        print("you wake up in a room with no memories of how you got there.")
+        print("there is a large door with a lock on it.")
+        print("you hear the lock jiggle.")
+        print("a man with a pumpkin for a body and no head enters the room and locks the door behind him.")
+        print("he approaches you.")
+        print("he yells 'GIVE ME THE SALT' in a thick southern accent.")
+        print("on the ground you see two bottles, one labled poison the other labled salt.")
+        print("which do you give him?")
+        print("1: the 'SALT'")
+        print("2: the poison")
+        SALT = int(input(""))
+        if SALT == 1 :
+            print("'OMNOMNOM!' you hear as the pumpkin man scarfs down the salt, bottle and all.")
+            print("he leaves surely to return.")
+
+        if SALT == 2 :
+            print("'NO,' he screams.")
+            print("you can smell the mix of tooth paste and chicken on his breath.")
+            print("'I DON'T WANT THAT!'")
+            print("'GIVE ME THE SALT!' he yells.")
+            while y == 0:
+                print("you feel the need to give him the salt.")
+                print("which do you give him.")
+                print("1: the 'SALT'.")
+                SALT2 = input("")
+                if SALT2 == "1":
+                    print("you give him the salt.")
+                    print("'OMNOMNOM!' you hear as the pumpkin man scarfs down the salt, bottle and all.")
+                    print("he leaves surely to return.")
+                    y = 1
+                if SALT2 != "1":
+                    print("that is not an option.")
+                    
+
+        
+    if yum != "1" and yum != "2" and yum != "3" and yum != "lucky charms" and yum != "captain crunch" and yum != 'Z̷̷̨̟̞͎͍͌̓̂ͣ̃̑̇ͫ̄ͥͭ̋͜͢À̞̱͉̼̺͉̗̰̺̹̯̖͖͕̜͍̗ͩ̅͌ͯ͛͒̏͌̾͜͡ͅL̴̢͕̟͓͖̟̖͍̺̖̥̣̺̮ͮ̄͒̀̕͡Gͦͬ̐͒̎̈́̊͟͡҉̵̘̳̰̘͎Õ̸̸̢̨̜͉͔̞̩̟̤̿̆͋ͧ́ͭ̽̽ͨ̈́͠"':
+        print("that is not an option.")
+    print("the end.")
+    print("try again?")
+    loop = input("")
+    if loop == "no" or loop == "n" :
+        x = 1
+
