@@ -1,8 +1,0 @@
-var http = require('http');
-var dt = require('./dtmod');
-
-http.createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.write("the time is " + dt.mydt());
-}).listen(0000);
